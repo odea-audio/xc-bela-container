@@ -24,6 +24,7 @@
 		"llvm-vs-code-extensions.vscode-clangd",
 		"webfreak.debug",
 		"twxs.cmake",
-		"ms-vscode.cmake-tools"
+		"ms-vscode.cmake-tools",
+		"xaver.clang-format"
 	]
 }
