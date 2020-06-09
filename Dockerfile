@@ -1,4 +1,4 @@
-FROM debian:buster
+FROM ubuntu:focal
 ENV DEBIAN_FRONTEND noninteractive
 
 COPY scripts/build_bela.sh \

@@ -12,5 +12,5 @@ docker run \
     --mount source=xc-bela-src,target=/workspace,type=volume \
     --mount source=xc-bela-bashhistory,target=/commandhistory,type=volume \
     --network host --cap-add=SYS_PTRACE --security-opt seccomp=unconfined \
-    ebai101/xc-bela:latest \
+    ebai101/xc-bela:ubuntu \
     bash -c "$RUN_CMD"
